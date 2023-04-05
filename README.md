@@ -1,6 +1,6 @@
-# Audio Sample Processor
+# Sample Creator
 
-Audio Sample Processor is a Python-based script for processing FLAC audio files to generate sliced samples with metadata for use in music production. It utilizes libraries such as Spleeter, Librosa, and PyDub to extract stems, detect tempo and key, and slice the audio based on transients.
+Sample Creator is a Python-based script for processing FLAC audio files to generate sliced samples with metadata for use in music production. It utilizes libraries such as Spleeter, Librosa, and PyDub to extract stems, detect tempo and key, and slice the audio based on transients.
 
 ## Requirements
 
@@ -29,8 +29,6 @@ git clone https://github.com/christian-bell/sample_creator.git
 
 Add your input FLAC files to the input_flac_files folder.
 
-Example input .flac file: "04 - Sofia Kourtesis - La Perla.flac"
-
 Run the split_samples.py script:
 
 ```bash
@@ -39,6 +37,8 @@ python split_samples.py
 
 Once the script has finished processing the files, the sliced samples and metadata will be available in the samples folder organized by stem type (vocals, drums, bass, other).
 
-Example sample output based on example input above: 1B-89-Sofia-La-other023.wav
+
+Example input .flac file: "04 - Sofia Kourtesis - La Perla.flac"
+Example sample output based on example input file: 1B-89-Sofia-La-other023.wav, 1B-89-Sofia-La-drums023.wav
 
 Adjustments would need to be made to account for different input file formats.
