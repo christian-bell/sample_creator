@@ -39,6 +39,7 @@ Once the script has finished processing the files, the sliced samples and metada
 
 
 Example input .flac file: "04 - Sofia Kourtesis - La Perla.flac"
+
 Example sample output based on example input file: 1B-89-Sofia-La-other023.wav, 1B-89-Sofia-La-drums023.wav
 
-Adjustments would need to be made to account for different input file formats.
+Adjustments would need to be made to account for different input file names.
