@@ -1,1 +1,1 @@
-# sample_crrator
+# sample_creator
